@@ -1,17 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>
-        EliezxRTS/dev
-    </title>
+    <title>EliezxRTS/dev</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página peronal de Eli">
-    <meta name="keywords" content="UNAM, FES, Aragón, ICO, Computacón">
+    <meta name="description" content="Página personal de Eli">
+    <meta name="keywords" content="UNAM, FES, Aragón, ICO, Computación">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <script src="./assets/js/cliente.js"></script>
     <title>Document</title>
 </head>
-<body>
-    En contrucción ...
+
+<body id="cuerpo" onclick="cambiarFondoBody()">
+    <header>
+        <h1>Eliezer Isaí Monroy Quintero</h1>
+        <h3>Mi página personal</h3>
+        <nav>
+            <ul>
+                <li><a href="https://www.unam.mx/">UNAM</a></li>
+                <li><a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES Aragón</a></li>
+                <li><a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">ICO</a></li>
+                <li><a href="https://github.com/EliezxRTS">GitHub EliezxRTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Estudios</h1>
+
+            <article>
+                <h3 onclick="saludar()" >Trayectoria Académica</h3>
+                <p style="color: rgb(84, 12, 133);" id="parrafo1" >Inicié mis estudios en la UNAM en 2014 cuando ingresé al CCH Oriente.</p>
+                <p>Posteriormente en el año 2017 ingresé a la carrera de Física en la Facultad de Ciencias, donde continué por 6 semestres.</p>
+                <p>Debido a circunstancias especiales suspendí mis estudios durante algún tiempo y tomé la decisión de realizar mi cambio a Computación.</p>
+            </article>
+
+            <article>
+                <h3>FES Aragón</h3>
+                <p id="parrafo2" >Actualmente y desde el 2023, después de haber realizado los trámites correspondientes a mi cambio, me encuentro en curso de la carrera de Ingeniería en Computación (ICO) en la FES Aragón.</p>
+                <p id="parrafo3">Al momento de la publicación me encuentro en curso del 5to semestre en ICO con un promedio de 9.19.</p>
+                <button onclick="cambiarParrafo2()" >Porra!!!</button>
+            </article>
+        </section>
+
+        <section>
+            <h1>Tecnologías que manejo</h1>
+
+            <article>
+                <h3>Programación</h3>
+                <p>Mis lenguajes de programación favoritos y en los que mejor trabajo son Python y Java.</p>
+                <p>Python: Manejo de nivel intermedio.</p>
+                <p>Java: Nivel intermedio. Conocimiento alto de manejo de las tecnologías Swing.</p>
+            </article>
+
+            <article>
+                <h3>Matemáticas</h3>
+                <p>Wolfram Mathematica: Nivel intermedio. Conocimiento alto en la representación de objetos matemáticos y otras herramientas al respecto.</p>
+            </article>
+
+            <article>
+                <h3>Edición</h3>
+                <p>LaTeX: Nivel alto. Conocimiento alto en el manejo del software de edición de artículos para la divulgación científica.</p>
+            </article>
+        </section>
+
+        <section>
+            <h1>Información adicional</h1>
+
+            <article>
+                <h3>Pasatiempos</h3>
+                <p>Videojuegos: Mi saga favorita es Monster Hunter, una saga que me acompaña desde el 2012.</p>
+                <p>Música: Me encanta escuchar música de géneros diversos, principalmente música indie. Mi grupo favorito es Vampire Weekend. Además disfruto tocando el piano.</p>
+                <p>Actividad física: No disfruto estar mucho tiempo sin moverme, y por tanto, me gusta hacer ejercicio de forma regular. Practico Tae Kwon Do y voy con regularidad al gimnasio.</p>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <h4>Galería</h4>
+        <img width="200px" src="https://www.monsterhunter.com/stories2/assets/images/character/chara06.png" alt="Imagen 1">
+    </aside>
+
+    <footer>
+        <p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2024. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.</p>
+    </footer>
 </body>
+
 </html>

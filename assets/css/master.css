@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF; /* Blanco suave para contraste */
+    background-color: #2D2D40; /* Fondo oscuro estilo vaporwave */
+    padding: 20px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    background-color: #91e5ff; /* Azul neón pastel */
+    color: #194088; /* Rosa neón */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4361EE; /* Azul eléctrico */
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFB96; /* Amarillo claro neón */
+    font-weight: bold;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section, article, aside {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #A0E7E5; /* Suave verde-azul pastel */
+    border: 1px solid #FFAEBC; /* Borde rosa pastel */
+    color: #120078; /* Texto en azul oscuro para contraste */
+}
+
+footer {
+    text-align: center;
+    background-color: #7209B7; /* Morado intenso */
+    color: #FFD6E8; /* Rosa pálido */
+    padding: 10px 0px;
+}
